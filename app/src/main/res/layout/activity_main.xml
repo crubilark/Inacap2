@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.clrubilarc.inacap2.MainActivity">
+
+    <include layout="@layout/mibarra" />
+
+    <Button
+
+        android:textAllCaps="false"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invitacion"
+        android:onClick="launchinvitacion"/>
+
+    <Button
+
+        android:textAllCaps="false"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basket"
+        android:onClick="launchBasket"/>
+
+    <Button
+
+        android:textAllCaps="false"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffe"
+        android:onClick="launchCoffe"/>
+
+    <Button
+
+        android:textAllCaps="false"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tea"
+        android:onClick="launchTea"/>
+
+</LinearLayout>
